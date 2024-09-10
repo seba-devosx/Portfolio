@@ -4,6 +4,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { GrGithub } from "react-icons/gr";
 import { MdOutlineEmail } from "react-icons/md";
 const Home = () => {
+    
   return (
     <div className='Container-content'>
         <h1 className='title_main'>
@@ -29,7 +30,7 @@ const Home = () => {
         <ul className='list_icons_social_media'>
             <li className='Element_ul_li'><a className='link' href='https://www.linkedin.com/in/sebastian-aravena-sandoval06/' target="_blank" rel="noreferrer"><SlSocialLinkedin/></a></li>
             <li className='Element_ul_li'><a href='https://github.com/seba-devosx' target="_blank" rel="noreferrer"><GrGithub/></a></li>
-            <li className='Element_ul_li'><a href="sebastianigna98@icloud.com"><MdOutlineEmail/></a></li>
+            <li className='Element_ul_li'><a href="mailto:sebastianignaaravenasandoval@gmail.com?subject=Subject&body=Body%20Text"><MdOutlineEmail/></a></li>
         </ul>
          
     </div>

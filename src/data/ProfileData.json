@@ -1,0 +1,26 @@
+{
+    "Experience":[
+        {
+            "empresa" : "Hakalab",
+            "tiempo": "2020 - 2024",
+            "rol": "Qa automatizador",
+            "descripcion": "trabajo como QA",
+            "herramientas": [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "empresa" : "Freelance",
+            "tiempo": "2024 - Presente",
+            "rol": "Desarrollador backend",
+            "descripcion": "trabajo freelamce",
+            "herramientas": [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        }
+    ]
+}

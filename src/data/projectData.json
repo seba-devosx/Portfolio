@@ -1,0 +1,126 @@
+{
+    "Proyectos":[
+        {
+            "image" : "../images/Portfolio.png",
+            "title": "Portfolio Dev",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/seba-devosx/Portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "React",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "../images/Fastapi.png",
+            "title": "Portfolio Dev",
+            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/seba-devosx/Portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "../images/sql.png",
+            "title": "Portfolio Dev",
+            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/seba-devosx/Portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        }
+        ,
+        {
+            "image" : "../images/Portfolio.png",
+            "title": "Portfolio Dev",
+            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/seba-devosx/Portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "../images/Portfolio.png",
+            "title": "Portfolio Dev",
+            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/seba-devosx/Portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        }
+        ,
+        {
+            "image" : "../images/Portfolio.png",
+            "title": "Portfolio Dev",
+            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/seba-devosx/Portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        }
+    ]
+}
