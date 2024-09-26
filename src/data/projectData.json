@@ -3,7 +3,7 @@
         {
             "image" : "../images/Portfolio_tecnologies.png",
             "title": "Portfolio Dev",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "- Developer Portfolio Website made in React \n-Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
                 {
                     "text": "GitHub",
@@ -48,7 +48,7 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/seba-devosx/Portfolio"
+                    "href": "https://github.com/seba-devosx/Arquetipo-Python-BDD"
                 }
             ],
             "tags" : [
