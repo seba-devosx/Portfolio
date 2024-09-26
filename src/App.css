@@ -37,7 +37,8 @@
   }
 } */
  /* Estilos para el modo claro */
- .fade-enter {
+ 
+.fade-enter {
   opacity: 0;
 }
 .fade-enter-active {
@@ -51,6 +52,7 @@
   opacity: 0;
   transition: opacity 300ms;
 }
+
 
 .light-mode{
   --bg-color: white;
@@ -100,8 +102,12 @@ body, .light-mode, .dark-mode, .Navbar, .Nav.Link{
   min-height: 100vh;
 }
 
+
+
 @media (min-width: 1024px) {
   /* home, navbar*/
+  /*efectos */
+  
   .Navbarxd{
     justify-content: end;
     flex-grow: 1;

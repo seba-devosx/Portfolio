@@ -1,7 +1,7 @@
 {
     "Proyectos":[
         {
-            "image" : "../images/Portfolio.png",
+            "image" : "../images/Portfolio_tecnologies.png",
             "title": "Portfolio Dev",
             "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
@@ -21,13 +21,13 @@
             ]
         },
         {
-            "image" : "../images/Fastapi.png",
-            "title": "Portfolio Dev",
-            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
+            "image" : "../images/FastApi.png",
+            "title": "Api Gestion De Usuarios",
+            "bodyText": "Api para la gestion de usuario diseñada con fastapi framework de python con conexion a mysql median ORM sqlAlchemy",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/seba-devosx/Portfolio"
+                    "href": "https://github.com/seba-devosx/Python-FastApi"
                 },
                 {
                     "text": "Live",
@@ -35,92 +35,29 @@
                 }
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Api",
+                "FastApi",
+                "Python",
+                "SQL"
             ]
         },
         {
-            "image" : "../images/sql.png",
-            "title": "Portfolio Dev",
+            "image" : "../images/Automation.png",
+            "title": "Arquetipo Testing Automatizado",
             "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
             "links": [
                 {
                     "text": "GitHub",
                     "href": "https://github.com/seba-devosx/Portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": ""
                 }
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Python",
+                "Selenium",
+                "cucumber",
+                "Allure Report"
             ]
-        }
-        ,
-        {
-            "image" : "../images/Portfolio.png",
-            "title": "Portfolio Dev",
-            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/seba-devosx/Portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": ""
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "../images/Portfolio.png",
-            "title": "Portfolio Dev",
-            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/seba-devosx/Portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": ""
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        }
-        ,
-        {
-            "image" : "../images/Portfolio.png",
-            "title": "Portfolio Dev",
-            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/seba-devosx/Portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": ""
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        }
+        }    
+        
     ]
 }
