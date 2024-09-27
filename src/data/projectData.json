@@ -3,7 +3,7 @@
         {
             "image" : "../images/Portfolio_tecnologies.png",
             "title": "Portfolio Dev",
-            "bodyText": "- Developer Portfolio Website made in React \n-Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "•Portfolio construido en reat\n•La finalidad era poder aprender nuevas habilidades en frontend para poder crear interfases y lograr conectar las apis diseñadas en python.\n•Permite visualziar el modod oscuro y modo claro",
             "links": [
                 {
                     "text": "GitHub",
@@ -17,13 +17,14 @@
             "tags" : [
                 "JavaScript",
                 "React",
-                "JavaScript"
+                "JavaScript",
+                "Vercel"
             ]
         },
         {
-            "image" : "../images/FastApi.png",
+            "image" : "../images/Fastapi.png",
             "title": "Api Gestion De Usuarios",
-            "bodyText": "Api para la gestion de usuario diseñada con fastapi framework de python con conexion a mysql median ORM sqlAlchemy",
+            "bodyText": "•Api para la gestion de usuario diseñada con FastApi \n•El proposito lograr poner aprueba mis conocimientos en Python para poder crear una API con conexion a MySql y seguritizada con JWT",
             "links": [
                 {
                     "text": "GitHub",
@@ -38,13 +39,14 @@
                 "Api",
                 "FastApi",
                 "Python",
+                "Pytest",
                 "SQL"
             ]
         },
         {
             "image" : "../images/Automation.png",
             "title": "Arquetipo Testing Automatizado",
-            "bodyText": "Portafolio diseñado con React\n -Creado con la finalidad de retomar tecnologias frontend para poder implemetar en conjunto a aplicaciones backend \n",
+            "bodyText": "•Arquetipo diseñado para poder Automatizar pruebas funcionales\n•El proposito es lograr la implementacion python y selenium y allure-report para poder generar pruebas automatizadas las cuales nos generen un reporte de la prueba realizada\n",
             "links": [
                 {
                     "text": "GitHub",

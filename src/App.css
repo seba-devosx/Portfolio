@@ -112,6 +112,7 @@ body, .light-mode, .dark-mode, .Navbar, .Nav.Link{
     justify-content: end;
     flex-grow: 1;
   }
+  
   .button_ld{
     background-color: var(--bg-color);
     color: var(--text-color) !important;
@@ -232,6 +233,7 @@ body, .light-mode, .dark-mode, .Navbar, .Nav.Link{
   }
   .Text_descrit_card{
     font-size: 10px;
+    white-space: pre-wrap;
   }
   .Div_span_card{
     display: flex;
@@ -323,7 +325,12 @@ body, .light-mode, .dark-mode, .Navbar, .Nav.Link{
     font-size: 16px;
     color:var(--time_line-text);
   }
-
+  .Profile-description{
+    white-space: pre-wrap;
+  }
+  .Profile-list{
+    color: var(--time_line-text);
+  }
   
 
   

@@ -16,7 +16,7 @@ const NavigationBar = ({ toggleDarkMode, darkMode }) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='Navbarxd'>
                 <Nav.Link href="/Home">Home</Nav.Link>
-                <Nav.Link href="/About">Sobre mi</Nav.Link>
+                <Nav.Link href="/About">Sobre-mi</Nav.Link>
                 <Nav.Link href="/Skills">Habilidades</Nav.Link>
                 <Nav.Link href="/Projects">Projectos</Nav.Link>
                 <Nav.Link href="/Experience">Experiencia</Nav.Link>

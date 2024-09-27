@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileData from "../data/ProfileData.json" 
 import { FaTerminal } from "react-icons/fa";
+
 const Experience = () =>{
     return(
       <div Class="timeline">
@@ -9,20 +10,25 @@ const Experience = () =>{
             <div Class="timeline-icon"></div>
             <div Class="timeline-content">
               <h3 Class="timeline-title"><FaTerminal/>{ProfileData.Experience[key].empresa}</h3>
-              <h2 Class="timeline-title">{ProfileData.Experience[key].rol}</h2>
+              <h2 Class="timeline-title">Rol:{ProfileData.Experience[key].rol}</h2>
               <span>{ProfileData.Experience[key].tiempo}</span>
-              <p>{ProfileData.Experience[key].descripcion}</p>
-              <div>
-                  <ul>
+              <p class="Profile-description">{ProfileData.Experience[key].descripcion}</p>
+              <br/>
+              {/* <div>
+                <ul>
                   {ProfileData.Experience[key].herramientas.map((herramientas,index)=>(
-                    <li key={index}>{herramientas}</li>
-                  ))}
-                  </ul>
-              </div>
+                      //console.log(herramientas)
+                      <li key={index} className="Profile-list">{herramientas}</li>
+                      
+                    ))}
+                </ul>
+              </div> */}
             </div>
          </div>
         ))}
     </div>
+    
     );
+    
 }
 export default Experience

@@ -13,7 +13,9 @@ const Projects=()=>{
             <Card.Body>
                 <Card.Title className='Title_card'>{projectData.Proyectos[key].title}</Card.Title>
                 <Card.Text className='Text_descrit_card'>
+                    
                     {projectData.Proyectos[key].bodyText}
+                
                 </Card.Text>
                 <div className='Div_span_card'>
                     {projectData.Proyectos[key].tags.map((tags,index)=>(
@@ -25,13 +27,9 @@ const Projects=()=>{
                     <Button key={index} className="Btn_card" href={links.href} target='_blank'>{links.text}</Button>
                     ))}
                 </div>
-                    
             </Card.Body>
-            
             </Card>
-
         ))}
-            
         </div>
         
     );

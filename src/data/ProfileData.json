@@ -4,18 +4,18 @@
             "empresa" : "Hakalab",
             "tiempo": "2020 - 2024",
             "rol": "Qa automatizador",
-            "descripcion": "trabajo como QA",
+            "descripcion": "•Trabajo en celulas agiles, desarrolando distintos test, tales como end to end, integracion, smoke test.\n•Test automatizados desarrollados con python,selenium y allurereport para revisar los resultados de las pruebas\n•Creacion de automatizaciones ETL para extraer datos para analisis de resultados de pruebas",
             "herramientas": [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Python",
+                "Pandas",
+                "Selenium"
             ]
         },
         {
             "empresa" : "Freelance",
             "tiempo": "2024 - Presente",
-            "rol": "Desarrollador backend",
-            "descripcion": "trabajo freelamce",
+            "rol": "Desarrollador Backend",
+            "descripcion": "•Trabajo como desarrollador backend con conocemientos en frontend.\n•Espcializado en la creacion de Api con framework backend con python.\n•Desarrollar interfaces con React para la intgeracion con las Apis desarrolladas en python.",
             "herramientas": [
                 "React",
                 "Portfolio",

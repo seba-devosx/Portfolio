@@ -14,9 +14,9 @@ const Home = () => {
                 <TypeAnimation
             sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'Im, a Freelance',
+                'Im, a Backend Developer',
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                'Im, a Backend developer',
+                'Im, Qa Automation',
                 1000,
                 'Become, a full stack developer',
                 1000
