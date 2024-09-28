@@ -38,20 +38,9 @@
 } */
  /* Estilos para el modo claro */
  
-.fade-enter {
-  opacity: 0;
-}
-.fade-enter-active {
-  opacity: 1;
-  transition: opacity 300ms;
-}
-.fade-exit {
-  opacity: 1;
-}
-.fade-exit-active {
-  opacity: 0;
-  transition: opacity 300ms;
-}
+/* Slide in desde la derecha cuando se entra */
+
+
 
 
 .light-mode{
@@ -107,6 +96,17 @@ body, .light-mode, .dark-mode, .Navbar, .Nav.Link{
 @media (min-width: 1024px) {
   /* home, navbar*/
   /*efectos */
+
+
+  .fade-appear {
+    opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
   
   .Navbarxd{
     justify-content: end;

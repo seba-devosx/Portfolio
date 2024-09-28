@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className="Container-content">
-      <h1 className='Title_about'>About Me</h1>
+      <h1 className='Title_about'>Sobre Mi</h1>
       <p className='Text_about'>Ingeniero informático con 3 años de experiencia, 
        con gran compromiso en el área profesional y humana. 
        Proactivo con ganas de aprender de la experiencia de mi entorno como también individualmente. 

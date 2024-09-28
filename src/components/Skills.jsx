@@ -7,7 +7,7 @@ const Skills = () => {
   console.log(skillsData.languages.skills[0].icon); // Debería mostrar el primer ícono.
   return (
     <div className="Container-content">
-      <h1 className='Title_skill'>My Skills</h1>
+      <h1 className='Title_skill'>Mis Habilidades</h1>
       <p className='Text_skill_description'>
         Me encanta aprender cosas nuevas y experimentar con nuevas tecnologías.
         Estos son algunos de los principales lenguajes, tecnologías, herramientas y plataformas con los que he trabajado:

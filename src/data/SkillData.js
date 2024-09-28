@@ -1,13 +1,13 @@
 
-import { AiOutlinePython } from "react-icons/ai";
-import { SiJavascript,SiPandas,SiDocker,SiSqlalchemy,SiFastapi,SiSelenium} from "react-icons/si";
-import { FaGitAlt,FaReact } from "react-icons/fa";
+
+import { SiJavascript,SiPandas,SiDocker,SiSqlalchemy,SiFastapi,SiSelenium,SiFlask} from "react-icons/si";
+import { FaGitAlt,FaReact,FaPython } from "react-icons/fa";
 
 const skillsData = {
     languages: {
       title: 'Lenguajes',
       skills: [
-        { icon: <AiOutlinePython className='Icons_list' />, name: 'Python' },
+        { icon: <FaPython className='Icons_list' />, name: 'Python' },
         { icon: <SiJavascript className='Icons_list' />, name: 'JavaScript' },
         
       ],
@@ -16,6 +16,7 @@ const skillsData = {
       title: 'Frameworks',
       skills: [
         { icon: <SiFastapi className='Icons_list' />, name: 'FastApi' },
+        { icon: <SiFlask className='Icons_list' />, name: 'Flask' },
         { icon: <FaReact className='Icons_list' />, name: 'React' },
         { icon: <SiSelenium className='Icons_list' />, name: 'Selenium' },
       ],

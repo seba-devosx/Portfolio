@@ -9,13 +9,15 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
-import { useState, useEffect } from 'react';
-
+import { useState, useEffect,useRef } from 'react';
+import './App.css'
 
 
 
 function App() {
-  const location = useLocation()
+  const location = useLocation();
+  console.log(location)
+  const nodeRef = useRef(null)  
   const [darkMode, setDarkMode] = useState(false);
 
   // Cargar la preferencia de tema desde localStorage
@@ -40,17 +42,27 @@ function App() {
       <div className={darkMode ? 'dark-mode' : 'light-mode'}>
         <NavigationBar toggleDarkMode={toggleDarkMode} darkMode={darkMode} /> {/* Muestra Navbar en todas las rutas */}
         <TransitionGroup>
-          <CSSTransition key={location.pathname} classNames="fade" timeout={300}>
-          <Routes location={location}>
-              <Route path="*" element={<Home/>} />
-              <Route path="/about" element={<About/>} />
-              <Route path="/Home" element={<Home/>} />
-              <Route path="/Skills" element={<Skills/>} />
-              <Route path="/Experience" element={<Experience/>} />
-              <Route path="/Projects" element={<Projects/>} />
-            </Routes>
+          <CSSTransition key={location.pathname}  in
+               classNames="fade"
+               appear={true}
+               timeout={500}
+               nodeRef={nodeRef}
+          onEnter={() => console.log("Transition enter")}
+          onExited={() => console.log("Transition exit")}
+          onError={(error) => console.error("Transition error", error)}>
+          <div ref={nodeRef} >
+            <Routes location={location}>
+                <Route path="/home" element={<Home/>} />
+                <Route path="/about" element={<About/>} />
+                <Route path="/home" element={<Home/>} />
+                <Route path="/skills" element={<Skills/>} />
+                <Route path="/experience" element={<Experience/>} />
+                <Route path="/projects" element={<Projects/>} />
+              </Routes>
+            </div>
           </CSSTransition>
         </TransitionGroup>
+     
             
       </div>
       
