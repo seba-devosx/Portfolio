@@ -344,6 +344,20 @@ body, .light-mode, .dark-mode, .Navbar, .Nav.Link{
 
 @media (max-width: 800px) {
   /* home, navbar*/
+  .fade-appear {
+    opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+  
+  .Navbarxd{
+    justify-content: end;
+    flex-grow: 1;
+  }
   
   .Navbarxd{
     align-items: center;
