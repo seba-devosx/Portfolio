@@ -43,16 +43,17 @@ function App() {
         <NavigationBar toggleDarkMode={toggleDarkMode} darkMode={darkMode} /> {/* Muestra Navbar en todas las rutas */}
         <TransitionGroup>
           <CSSTransition key={location.pathname}  in
-               classNames="fade"
-               appear={true}
-               timeout={500}
-               nodeRef={nodeRef}
-          onEnter={() => console.log("Transition enter")}
-          onExited={() => console.log("Transition exit")}
-          onError={(error) => console.error("Transition error", error)}>
+              classNames="fade"
+              appear={true}
+              timeout={500}
+              nodeRef={nodeRef}
+              onEnter={() => console.log("Transition enter")}
+              onExited={() => console.log("Transition exit")}
+              onError={(error) => console.error("Transition error", error)}>
+
           <div ref={nodeRef} >
             <Routes location={location}>
-                <Route path="/" element={<Home/>} />
+                <Route path="*" element={<Home/>} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/skills" element={<Skills/>} />
@@ -60,6 +61,7 @@ function App() {
                 <Route path="/projects" element={<Projects/>} />
               </Routes>
             </div>
+
           </CSSTransition>
         </TransitionGroup>
      
