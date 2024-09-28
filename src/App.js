@@ -52,6 +52,7 @@ function App() {
           onError={(error) => console.error("Transition error", error)}>
           <div ref={nodeRef} >
             <Routes location={location}>
+                <Route path="/" element={<Home/>} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/skills" element={<Skills/>} />
