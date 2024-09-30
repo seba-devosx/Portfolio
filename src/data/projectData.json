@@ -11,7 +11,7 @@
                 },
                 {
                     "text": "Live",
-                    "href": ""
+                    "href": "https://portfolio-snowy-six-51.vercel.app"
                 }
             ],
             "tags" : [
@@ -28,11 +28,8 @@
                 {
                     "text": "GitHub",
                     "href": "https://github.com/seba-devosx/Python-FastApi"
-                },
-                {
-                    "text": "Live",
-                    "href": ""
                 }
+                
             ],
             "tags" : [
                 "Api",
