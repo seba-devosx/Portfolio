@@ -21,7 +21,7 @@ const NavigationBar = ({ toggleDarkMode, darkMode }) => {
                 <Nav.Link href="/skills">Habilidades</Nav.Link>
                 <Nav.Link href="/projects">Proyectos</Nav.Link>
                 <Nav.Link href="/experience">Experiencia</Nav.Link>
-                <Nav.Link href="https://drive.google.com/file/d/1V1fguKlzagvNHB8lf5hHABoKJDSyE5V0/view?usp=sharing" target="_blank" rel="noreferrer">Descarga CV</Nav.Link>
+                <Nav.Link href="https://drive.google.com/file/d/1u3dZcLqHMf0FaIq5Smhh_NXZRT1dJ8Ep/view?usp=sharing" target="_blank" rel="noreferrer">Descarga CV</Nav.Link>
                 <Button className="button_ld" variant="outline" onClick={toggleDarkMode}>
                 {darkMode ? 'Light Mode' : 'Dark Mode'}
                 </Button>
